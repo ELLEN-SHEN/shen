@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bootstrap个人简历练习</title>
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">Personal Resume</div>                                      
+                </div>
+                <div id="divNav" class="collapse navbar-collapse">                   
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <div class="row">
+    <!-- 左侧 -->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">Personal Info</div>
+                <div class="panel-body">
+                    <img src="me.jpg" class="img-responsive img-rounded img-thumbnail" alt="Me">
+                    <p class="text-center text-primary">沈宁</p>
+                    <address>
+                        <strong>中国</strong><br>
+                        <i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;<kbd>江苏省常州市</kbd><br>
+                        <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;18862939750<br>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;<code>429107109@qq.com</code><br>
+                        <i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://github.com/ELLEN-SHEN/shen.git">https://github.com/ELLEN-SHEN/shen.git</a><br>
+                    </address>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel panel-heading">Personal Skill</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-muted">HTML5</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-success">Android</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 30%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-info">Java</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-info active" style="width: 30%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-warning">JQuery</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-danger">CSS</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧 -->
+        <div class="col-sm-9">
+            <div class="jumbotron">
+                <p class="text-left small">
+                爱学习、爱晚起、爱听音乐、爱看小说、爱编程。
+                </p>
+            </div>
+
+            <div class="panel-group" id="accoradion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accoradion">实习经验</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2018/7/1-2018/8/25</div>
+                                            <div class="col-sm-4">梅特勒-托利多（常州）测量技术有限公司</div>
+                                            <div class="col-sm-4">软件开发工程师</div>
+                                        </div>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseTwo" data-toggle="collapse" data-parent="#accoradion">教育经历</a>
+                        </div>
+
+
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2016/3/1-至今</div>
+                                            <div class="col-sm-4">南通大学 信息科学技术学院</div>
+                                            <div class="col-sm-4">计算机科学与技术（嵌入式培养）</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseThree" data-toggle="collapse" data-parent="#accoradion">项目经历</a>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">云智教育APP项目</div>
+                                            <div class="col-sm-8">参加了服务外包创新大赛的云智教育APP项目。编写了该项目的前端部分，参与创建该项目的数据库。</div>
+                                            
+                                        </div>
+                                    </li>  
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">基于图文识别的称重仪表界面自动化测试软件</div>
+                                            <div class="col-sm-8">实习期间，参与了基于图文识别的称重仪表界面自动化测试软件的开发。学习了OPENCV、Tesseract-OCR等有关图文识别的内容，并参与了有关图文识别功能的代码编写。</div>                                            
+                                        </div>
+                                    </li>                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseFour" data-toggle="collapse" data-parent="#accoradion">自我评价&实训期望</a>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-12">&nbsp;&nbsp;具有较强的工作责任心和良好的适应能力，在团队合作的时候能够有较好的责任心和合作能力。大学期间认真学习专业课程，能熟练使用MySQL、SQL server、VS Code、webstorm等开发工具。<br>
+                                                &nbsp;&nbsp;本次实训期间，希望能学习到当下流行的一些前端技术和微信小程序的开发技术等。
+                                            </div>
+                                            
+                                        </div>
+                                    </li>                                                                       
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbar-fixed-bottom text-center navbar-default">
+            All images and contents &copy;沈宁
+        </nav>
+    </footer>
+</body>
+
+
+</html>
